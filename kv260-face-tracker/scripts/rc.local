@@ -1,0 +1,13 @@
+#!/bin/bash
+# =============================================================================
+# rc.local — Auto-load the DPU bitstream on every boot
+#
+# To install:
+#   sudo cp rc.local /etc/rc.local
+#   sudo chmod +x /etc/rc.local
+#
+# To verify after reboot:
+#   xdputil query   # should show fingerprint 0x101000016010407
+# =============================================================================
+xmutil loadapp kv260-benchmark-b4096
+exit 0

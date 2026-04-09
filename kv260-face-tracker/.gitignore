@@ -1,0 +1,21 @@
+# Build outputs
+*.o
+*.a
+*.so
+*.d
+test_video_facedetect_tracked
+
+# Compiled Vitis-AI models
+*.xmodel
+*.elf
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
