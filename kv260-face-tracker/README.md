@@ -187,6 +187,8 @@ Run the tracker:
 ```bash
 ./test_video_facedetect_tracked densebox_320_320 0
 ```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07f11d1f-bf8b-46c1-9da1-324e9ab38c5b" />
+
 
 | Argument | Meaning |
 |---|---|
@@ -258,6 +260,7 @@ cat -n test_video_facedetect_tracked.cpp    # view source with line numbers
 ```
 
 ---
+
 
 ## License
 
