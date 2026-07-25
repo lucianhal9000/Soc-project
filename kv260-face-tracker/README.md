@@ -2,6 +2,11 @@
 
 > **Platform:** Xilinx Kria KV260 | **OS:** Ubuntu 22.04 LTS | **AI Toolkit:** Vitis-AI v2.5 | **Vision:** OpenCV 4.x
 
+[![Watch the demo](https://img.youtube.com/vi/n8jugOo1blc/hqdefault.jpg)](https://www.youtube.com/watch?v=n8jugOo1blc)
+
+> [!TIP]
+> **▶ [Watch the demo on YouTube](https://www.youtube.com/watch?v=n8jugOo1blc)** — live face detection and ID tracking running on the KV260.
+
 Detects and tracks human faces in real time using a DPU-accelerated neural network running on the KV260's FPGA fabric. Each face receives a persistent ID, a smoothed bounding box, and a coloured corner-accent overlay.
 
 ---
